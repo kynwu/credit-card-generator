@@ -38,8 +38,7 @@ var dinersPrefixList = new Array(
 );
 
 var enRoutePrefixList = new Array(
-    "2014",
-    "2149"
+    "2537"
 );
 
 var jcbPrefixList = new Array(
