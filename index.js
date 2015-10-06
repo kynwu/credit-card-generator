@@ -181,7 +181,7 @@ module.exports.Schemes = {
  * @param {Number} [randomGen] Pseudo Random Generator. Must generate a random number between 0 an 1
  * @return {String}
  */
-module.exports.GenCC = function(CardScheme, howMany, randomGen){
+module.exports.GenToken = function(CardScheme, howMany, randomGen){
     pseudoRandom = randomGen || pseudoRandom;
     var amount = howMany || 1;
     // Try to get configs to the selected Scheme
